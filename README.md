@@ -1,4 +1,4 @@
-# doritos-nachos
+# doritos-nachos (EcoCoin)
 
 After volunteering for years at the Boston Latin School recycling committee, we’ve always noticed that recycling bins are overflowing with trash and not recyclable waste. In other words, no one actually cares about recycling because there’s no incentive. To prevent people from just finding a space to deposit their garbage, ruining the actual recyclable objects already inside bins, we developed EcoCoin. 
 

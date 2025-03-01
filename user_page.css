@@ -1,0 +1,117 @@
+body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #ffffff;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: black;
+    padding: 5px;
+}
+
+.nav-links a:hover {
+    text-decoration: underline;
+}
+
+.btn {
+    padding: 10px 20px;
+    background: blue;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+footer {
+    padding: 20px;
+    background: #ffffff;
+    color: rgb(0, 0, 0);
+}
+
+.logo img {
+    width: 50px;
+    padding-left: 20px;
+}
+
+html {
+    font-family: Inter;
+    font-size: 16px;
+}
+
+#logout_btn {
+    width: 100%; 
+    padding: 12px; 
+    background: #4CAF4F;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer; 
+    font-size: 16px;
+    color:#fff;
+    font-weight: 500; 
+    margin-bottom: 20px; 
+    transition: 0.5s;
+}
+
+#logout_btn:hover {
+    background: #1c6d1f;
+    text-decoration: none;
+}
+
+.content {
+    padding: 50px;
+    background: #f4f4f4;
+}
+
+#welcome {
+    position: absolute;
+    top: 150px; 
+    left: 750px;
+    width: 300px;
+    height: 100px;
+}
+
+#scan-button {
+    position: absolute;
+    top: 550px; 
+    left: 250px;
+    width: 300px;
+    height: 80px;
+    padding: 12px; 
+    background: #4CAF4F;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer; 
+    font-size: 16px;
+    color:#fff;
+    font-weight: 500; 
+    margin-bottom: 20px; 
+    transition: 0.5s;
+}
+
+#scan-button:hover {
+    background: #1c6d1f;
+}
+
+#reward-points {
+    position: absolute;
+    top: 450px; 
+    left: 1260px;
+    font-size: 70px;
+    font-family: Inter !important;
+    font-weight: bold;
+}
